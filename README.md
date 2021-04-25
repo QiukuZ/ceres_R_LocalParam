@@ -1,5 +1,5 @@
 # ceres_R_LocalParam
-由于旋转通常采用李代数so(3)或四元数，这些结构对加法不封闭，ceres 提供了一个 局部参数化方法 [LocalParameterization](http://ceres-solver.org/nnls_modeling.html?highlight=local#_CPPv4N5ceres21LocalParameterizationE) 处理自变量的更新问题。本仓库提供一种直接对**旋转矩阵[GlobalSize=9]**进行**局部参数化[LocalSize=3]**的例子, 使用李代数左扰动对旋转进行求导[可参考 [视觉SLAM十四讲](https://github.com/gaoxiang12/slambook) 中左扰动模型推导]。
+由于旋转通常采用李代数so(3)或四元数，这些结构对加法不封闭，ceres 提供了一个 局部参数化方法 [LocalParameterization](http://ceres-solver.org/nnls_modeling.html?highlight=local#_CPPv4N5ceres21LocalParameterizationE) 处理自变量的更新问题。本仓库提供一种直接对旋转矩阵[GlobalSize=9]进行局部参数化[LocalSize=3]的例子, 使用李代数左扰动对旋转进行求导[可参考 [视觉SLAM十四讲](https://github.com/gaoxiang12/slambook) 中左扰动模型推导]。
 
 
 
